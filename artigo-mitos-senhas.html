@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Mitos Sobre Senhas | Blog Daniel Paiva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+    
+
+<header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo Daniel Paiva">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html#hero">Início</a></li>
+                    <li><a href="index.html#about">Sobre Mim</a></li>
+                    <li><a href="index.html#services">Serviços</a></li>
+                    <li><a href="index.html#portfolio">Portfóliotfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article class="single-post-container">
+            <header class="single-post-header">
+                <div class="container">
+                    <p class="post-meta">[27.08.2025] - [PRIVACIDADE]</p>
+                    <h1 class="glitch" data-text="5 Mitos Sobre Senhas Que Colocam Sua Segurança em Risco">
+                        5 Mitos Sobre Senhas Que Colocam Sua Segurança em Risco
+                    </h1>
+                </div>
+            </header>
+
+            <div class="post-content-wrapper">
+                <div class="container post-content">
+                    <p class="lead">
+                        No universo da segurança digital, as senhas são a primeira linha de defesa. No entanto, muitos conselhos que ouvimos por aí estão desatualizados ou são simplesmente ineficazes. Vamos quebrar alguns mitos e entender o que realmente torna uma senha segura.
+                    </p>
+                    
+                    <h2>Mito 1: "Preciso trocar minhas senhas a cada 30 dias"</h2>
+                    <p>
+                        Esta era uma prática recomendada, mas hoje é considerada contraproducente. Forçar trocas frequentes leva os usuários a criarem padrões previsíveis (ex: `Senha@01`, `Senha@02`) ou a anotarem as senhas em locais inseguros. A nova diretriz de órgãos como o NIST (Instituto Nacional de Padrões e Tecnologia dos EUA) é:
+                    </p>
+                    
+                    <ul>
+                        <li><span class="prompt">></span> Use uma senha longa e forte e só a troque se houver suspeita de vazamento.</li>
+                        <li><span class="prompt">></span> A complexidade e o comprimento são mais importantes que a frequência da troca.</li>
+                    </ul>
+
+                    <h2>Mito 2: "Uma senha complexa como 'Tr@v!s_B@rk3r!' é super segura"</h2>
+                    <p>
+                        A complexidade ajuda, mas o comprimento é exponencialmente mais importante. Substituir letras por símbolos (leetspeak) é uma técnica bem conhecida por algoritmos de quebra de senha. Uma frase-senha (passphrase) é muito mais forte e mais fácil de lembrar.
+                    </p>
+
+                    <pre><code class="language-bash">
+# Comparando a força (entropia) de senhas:
+
+# SENHA FRACA (complexa, mas curta):
+# "Tr@v!s_B@rk3r!" -> Quebrada relativamente rápido por força bruta.
+
+# SENHA FORTE (longa e simples):
+# "meucachorroadoracorrernaparquedacidade" -> Levaria séculos ou milênios para ser quebrada.
+                    </code></pre>
+
+                    <h2>Mito 3: "Não preciso de um gerenciador de senhas, minha memória é boa"</h2>
+                    <p>
+                        Reutilizar senhas é um dos maiores pecados da segurança digital. Se um serviço vazar sua senha, todas as suas outras contas que usam a mesma credencial estarão em risco. É humanamente impossível memorizar dezenas de senhas únicas e fortes. Um gerenciador de senhas resolve isso.
+                    </p>
+                    <ul>
+                        <li><span class="prompt">></span> Ele cria e armazena senhas extremamente fortes para cada site.</li>
+                        <li><span class="prompt">></span> Você só precisa memorizar uma única "senha mestra".</li>
+                        <li><span class="prompt">></span> Opções confiáveis: Bitwarden (open source), 1Password, LastPass.</li>
+                    </ul>
+
+                    <h2>Mito 4: "Caracteres especiais são obrigatórios para uma senha ser forte"</h2>
+                    <p>
+                        Embora adicionar símbolos aumente a complexidade, o comprimento ainda é o fator crucial. Uma senha de 20 caracteres apenas com letras minúsculas é muito mais forte que uma senha de 8 caracteres com letras, números e símbolos. O ideal é combinar os dois: uma frase-senha longa que inclua espaços, números ou um símbolo.
+                    </p>
+                    
+                    <h2>Mito 5: "Autenticação de dois fatores (2FA) é um incômodo desnecessário"</h2>
+                    <p>
+                        Este é o mito mais perigoso. A 2FA é a sua rede de segurança. Mesmo que um hacker roube sua senha, ele não conseguirá acessar sua conta sem o segundo fator (um código do seu celular, uma chave física, etc.). Ativar a 2FA é uma das ações mais importantes que você pode tomar para proteger suas contas.
+                    </p>
+                    
+                    <pre><code class="language-bash">
+# STATUS_DA_CONTA: VULNERÁVEL
+# Motivo: 2FA desativado.
+
+# AÇÃO_RECOMENDADA:
+# system.security.enable_2fa --all_accounts
+
+# STATUS_DA_CONTA: SEGURO
+                    </code></pre>
+
+                    <h2>Conclusão: Comprimento > Complexidade</h2>
+                    <p>
+                        Lembre-se da regra de ouro: uma senha longa é uma senha forte. Pare de se estressar tentando memorizar combinações complexas e curtas. Adote frases-senha, use um gerenciador de confiança e, acima de tudo, ative a autenticação de dois fatores em todas as contas possíveis.
+                    </p>
+
+                    <div class="back-to-blog">
+                        <a href="blog.html" class="btn-read-more">< Retornar_ao_terminal</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    
+    
+
+<footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Daniel Paiva. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
