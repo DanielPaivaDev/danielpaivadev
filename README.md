@@ -41,15 +41,13 @@ Aqui estão alguns projetos dos quais me orgulho:
 
 #### 1. 📖 Social Bible (Versão 1.0)
 * **Descrição:** Um projeto que idealizei e lancei. É um site e app que disponibiliza a Bíblia em múltiplas línguas (atualmente 14!) com foco em acessibilidade.
-* **Link:** `[Link para o Projeto/Repositório]`
 
 #### 2. 💈 Sistema de Agendamento para Barbearia
 * **Descrição:** (Em desenvolvimento) Um sistema completo de agendamento e gerenciamento para uma barbearia local, ajudando um colega a organizar seu negócio.
-* **Link:** `[Link para o Repositório]`
 
 #### 3. 💼 Daniel Paiva Dev
 * **Descrição:** Meu portfólio e hub de serviços de web design, onde apresento meu trabalho para atrair clientes.
-* **Link:** `[Link para o seu site profissional]`
+* **Link:** https://www.danielpaiva.dev
 
 ---
 
@@ -57,9 +55,8 @@ Aqui estão alguns projetos dos quais me orgulho:
 
 Vamos nos conectar e trocar ideias!
 
-* **Instagram (Dev):** [@campos.code](https://www.instagram.com/campos.code/) - Onde posto sobre minha jornada em programação e tecnologia.
-* **LinkedIn:** `[Seu Perfil no LinkedIn]`
-* **E-mail:** `[seu.email@provedor.com]`
+* **Instagram:** [@danielpaiva.dev](https://www.instagram.com/danielpaiva.dev) - Onde posto sobre minha jornada em programação e tecnologia.
+* **LinkedIn:** https://www.linkedin.com/in/danielpaivadev
 
 ---
 
