@@ -59,7 +59,3 @@ Vamos nos conectar e trocar ideias!
 * **LinkedIn:** https://www.linkedin.com/in/danielpaivadev
 
 ---
-
-### 📊 Minhas Estatísticas no GitHub
-
-(Para ativar, basta descomentar e substituir 'SEU_USERNAME' pelo seu usuário do GitHub)
