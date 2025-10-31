@@ -1,4 +1,4 @@
-# 👋 Olá, eu sou José Daniel Campos Paiva!
+# 👋 Olá, eu sou Daniel Paiva!
 
 <p align="center">
   <em>
